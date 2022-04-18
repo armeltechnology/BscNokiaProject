@@ -21,7 +21,7 @@ public class ProjectBscNokia1Application implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 	
-		bsc.telnet("10.124.198.17", "ARMELT", "Tchawe2000.");
+		bsc.telnet("IpAdressOfBSC", "userNameOfBsc", "passwordOfBsc");
 		bsc.sendCommand("ZEEI:BCF=70;");
 		bsc.sendCommand("ZEEI:;");
 		bsc.disconnect();
