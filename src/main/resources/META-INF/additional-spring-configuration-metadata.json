@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "application.infothread.poolSize",
+    "type": "java.lang.String",
+    "description": "A description for 'application.infothread.poolSize'"
+  },
+  {
+    "name": "application.infothread.maxPoolSize",
+    "type": "java.lang.String",
+    "description": "A description for 'application.infothread.maxPoolSize'"
+  },
+  {
+    "name": "application.infothread.threadNamePrefix",
+    "type": "java.lang.String",
+    "description": "A description for 'application.infothread.threadNamePrefix'"
+  },
+  {
+    "name": "application.infothread.queueCapaciy",
+    "type": "java.lang.String",
+    "description": "A description for 'application.infothread.queueCapaciy'"
+  }
+]}
